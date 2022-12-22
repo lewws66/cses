@@ -6,9 +6,9 @@ using namespace std;
 // missing number is s_n minus all the rest of the numbers
 int main() {
   // read integer n
-  int n; cin>> n;
-  int sum = n*(n+1)/2;
-  int m;
+  long int n; cin>> n;
+  long int sum = n*(n+1)/2;
+  long int m;
   while(n-1>0){
     cin>>m;
     sum = sum - m;
