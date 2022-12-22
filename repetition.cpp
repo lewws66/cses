@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <cmath>
+//https://cses.fi/problemset/task/1069 
 using namespace std;
 int main() {
   string dna; cin>>dna;
