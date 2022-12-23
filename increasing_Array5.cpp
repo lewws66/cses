@@ -5,6 +5,24 @@
 using namespace std;
 //https://cses.fi/problemset/task/1094/
 //
+// Mistook the problem to be sorting array
+/* old code inside while(j--)loop
+  while(j--) {
+    if(m[j-1]>m[j]){
+    // cout<< m[j] << "<"<<m[j-1]<<endl;
+    s = m[j];
+    //cout<<"s1 ="<<s1<<endl;
+    m[j] = m[j-1];
+    //cout<<"m[j] ="<<m[j]<<endl;
+    m[j-1]= s;
+    //cout<<"m[j-1] ="<<m[j-1]<<endl;
+    cmin++;    
+    //cout<<j<<":"<<cmin<<endl;
+    } else {
+        break;  // break while(j--) loop
+      }    
+  }
+*/
 int main() {
   long int t;
   cin>> t;
