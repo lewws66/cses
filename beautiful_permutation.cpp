@@ -1,3 +1,12 @@
+#include <cmath>
+#include <iostream>
+using namespace std;
+// https://cses.fi/problemset/task/1070/
+/*Using math investigation a permutation with n = 4
+ie. 5 digits  3 1 4 2 exists but n<4 will have no solutions.
+Hence the trick is to start with odd from n to 1 (-2) each time, and then start
+with even n - 1 to 2 (-2)
+*/
 void block4(int n) {
   int i = 2, j = 1, r;
   r = n % 4;
@@ -46,8 +55,7 @@ int main() {
       cout << "NO SOLUTION";
     }
   } else {
-        block4(n);
-    }
+      block4(n); //Comment out this line if you revert to old code
     /* old code with 2 loops
      while(i<=n){
         cout<<i<<" ";
@@ -58,5 +66,6 @@ int main() {
          j+=2;
       }
      */
+  }
   return 0;
 }
