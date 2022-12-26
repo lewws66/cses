@@ -6,6 +6,10 @@ using namespace std;
 //https://cses.fi/problemset/task/1754
 // simultaneous linear equations 2x+y =1, 2y + x = b
 // given that number of moves is x+y
+// Again using scanf and printf for large data sets is 6 times faster than cin cout.
+// https://cses.fi/problemset/hack/1754/entry/5177439/   (result using cin cout was 23 seconds)
+//https://cses.fi/problemset/hack/1754/entry/5177470/    (result using scanf, printf was 0.03 seconds)
+//
 int main() {
   int t, a, b;
   //cin>>t;
