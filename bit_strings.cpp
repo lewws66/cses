@@ -1,6 +1,10 @@
 #include <iostream>
 #include <stdio.h>
 using namespace std;
+//problem
+//https://cses.fi/problemset/task/1617/
+//explanation
+//https://japlslounge.com/posts/cses/bit_strings/1.htm
 int main() {
 int n;
 int s=2;
