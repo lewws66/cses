@@ -1,7 +1,10 @@
 //#include <iostream>
 #include <stdio.h>
 //using namespace std;
+//problem
 //https://cses.fi/problemset/task/1092
+//discussion
+//https://www.reddit.com/r/learnprogramming/comments/n9ql5a/cses_problem_two_sets/
 //
 bool checkSumDivide(long int n) {
 long int s = n*(n+1)/2;
