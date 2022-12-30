@@ -6,6 +6,12 @@
 //#include <cmath>
 //#include <bits/stdc++.h> 
 using namespace std;
+// Source of Problem at CSES
+// https://cses.fi/problemset/task/1755/
+//
+// Some other references for solving (good explanations I found after solving
+//https://www.geeksforgeeks.org/rearrange-characters-form-palindrome-possible/
+//
 int main() {
   char c;
   char cp[1000000]; //try scanf
